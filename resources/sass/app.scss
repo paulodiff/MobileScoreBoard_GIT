@@ -1,0 +1,50 @@
+// The following two lines import the default Sencha Touch theme. If you are building
+// a new theme, remove them and the add your own CSS on top of the base CSS (which
+// is already included in your app.json file).
+@import 'sencha-touch/default';
+@import 'sencha-touch/default/all';
+
+
+// Custom code goes here..
+
+$base-color: #7A1E08;  
+$base-gradient: 'glossy';
+
+$my-color-var : white;
+
+.myclass {
+    background-color : $my-color-var;
+}
+
+/* modifica del background dei form */
+
+.x-form .x-scroll-container {
+	background:
+		radial-gradient(black 15%, transparent 16%) 0 0,
+		radial-gradient(black 15%, transparent 16%) 8px 8px,
+		radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+		radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color:#282828 !important; 
+	background-size:16px 16px;
+}  
+
+.x-layout-card-item {
+	background:
+		radial-gradient(black 15%, transparent 16%) 0 0,
+		radial-gradient(black 15%, transparent 16%) 8px 8px,
+		radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+		radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color:#282828 !important; 
+	background-size:16px 16px;
+}
+
+/* modifica per la barra divisione della list*/
+.x-list-normal .x-list-item.x-list-item-tpl, 
+.x-list-normal .x-list-item .x-dock-horizontal {
+	border-top: 0px solid #E54141 !important;
+	padding: 0px 0px 0px 0px !important;
+}
+
+
+// Examples of using the icon mixin:
+// @include icon('user');

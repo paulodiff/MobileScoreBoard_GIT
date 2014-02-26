@@ -1,0 +1,180 @@
+/* Pull to refresh plugin START --------------------------------------- */
+
+.x-list-pullrefresh{
+	color : #fff;
+}
+
+.x-list-pullrefresh-arrow{
+	-webkit-mask: center center url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAA8CAYAAAAUufjgAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAjFJREFUeNrsmU8oREEYwOexdtNuKBfFwdVhCyfuysnFiXISS+1BLopyUpKLXETkRLaUi1LK3Q2lpPbiQLnIn03a/Hm+z86Ttv0zM++bfbOar36Hbad5v535Zp7v47iuy0wOpyoEHccRHV9L9NxPkUE/bhKCOKiOSPAdn69DsJ5I8E2HYA0QJRJ8Bb50CDYRCT7pEMQD0kwk+CByUFQEW4gE73UIhoA2IsFb4ENEMCQ5MdU1IxwygpT3oKNLMGyyYFVscdhusc8tDpu+xRG7xf95BW0O2kNiV1AgIvaQ2BzUJNgJNJYZGyUU7OG1cal4Bi68oqkDPszy2teEwJp5Cdyu/lZ1g8CwIYJ7wEF+2YmrNw90Byx3BizgKhaqizEP1wg7CLLxCEzy/CtauMeBlQDyEfNuGrgU6SyM8F9SyVgHdmRaH6tAb4XkToEp2d4M5mOK0TWMigU2koa8vJMRZPxEb2ss2LEVPMpPLlMRxBgDZjQJLgNbxb6Uab9tAn3EcifAeKkBMoLY+j0GWonk7oB+lmsFkwhidAGHBPmIeTcAnJcbKCuIMQEs+hScAzZEBqoIYuzyFVCJI36lMJ2CDfxibZeUu+EX/4uMIFP8ZyLejxkgK0hG5a8kP4IYSZbr1IuQVHmAX0HGX4VuGfZVJ6cQxPd1uoRcWqDW0SroFVzZAnJZ/h0LWhAjUUAw4XdSSsH8fExRTEgtGAOuOTETBb16Jk412e+bxOSwglYw6PgWYABvLk8P7zGJFwAAAABJRU5ErkJggg==) no-repeat;
+	background : #555;
+}
+
+/* Pull to refresh plugin STOP --------------------------------------- */
+
+/* FONT da Google */ 
+/* Google font - stored locally */
+/* http://fonts.googleapis.com/css?family=Actor */	
+@font-face {
+  font-family: 'Actor';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Actor Regular'), local('Actor-Regular'), url(../font/actor.woff) format('woff');
+}
+
+
+/* separator bar list item */
+.x-list-normal .x-list-item .x-list-item-label {
+border: 5px solid #DEDEDE;
+}
+
+
+.test4panelbackground.x-layout-card-item {
+	background-color:red !important; 
+	background:red !important; 
+}
+
+body,
+.css3darkbackgound,
+.css3darkbackgound.x-container,
+.css3darkbackgound.x-fullscreen.x-layout-card-item.x-sized,
+.css3darkbackgound.x-container > .x-scroll-view,
+.x-form .x-scroll-container {
+		background:
+		radial-gradient(black 15%, transparent 16%) 0 0,
+		radial-gradient(black 15%, transparent 16%) 8px 8px,
+		radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+		radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+		background-color:#282828; 
+		background-size:16px 16px;
+} 
+
+
+.my-centered  {
+	margin: auto;
+}
+
+
+
+/* background del form */
+.x-form,
+.x-form .x-panel-body,
+.x-form > .x-panel-inner,  
+.x-form .x-scroll-container > .x-panel-inner {
+    background:
+		radial-gradient(black 15%, transparent 16%) 0 0,
+		radial-gradient(black 15%, transparent 16%) 8px 8px,
+		radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+		radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+		background-color:#282828; 
+		background-size:16px 16px;
+}
+   
+
+	
+/* note card */
+
+.note {
+	  position:relative;
+	  /* width:95%; */
+	  padding:1em 1.5em; 
+	  color:#fff;
+	  background:#97C02F;
+	  overflow:hidden;
+	  font-family: 'Actor', sans-serif;
+	  font-weight: 400; 
+	  		  
+}
+
+.note.front{
+	  margin: 1px 1px 1px 1px; 
+}
+
+.note.yellow {
+	background:yellow;
+}
+
+.note.red {
+		background:#C93213;
+}
+
+.note.blue {
+          background:#53A3B4;
+}
+
+.note.taupe {
+		background:#999868;
+}
+
+.note.gradient {
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #1e5799 0%, #207cca 16%, #2989d8 49%, #7db9e8 72%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#1e5799), color-stop(16%,#207cca), color-stop(49%,#2989d8), color-stop(72%,#7db9e8)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #1e5799 0%,#207cca 16%,#2989d8 49%,#7db9e8 72%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #1e5799 0%,#207cca 16%,#2989d8 49%,#7db9e8 72%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #1e5799 0%,#207cca 16%,#2989d8 49%,#7db9e8 72%); /* IE10+ */
+background: linear-gradient(135deg,  #1e5799 0%,#207cca 16%,#2989d8 49%,#7db9e8 72%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.note.rounded {
+          -webkit-border-radius:5px 5px 5px 5px;
+          -moz-border-radius:5px 5px 5px 5px;
+          border-radius:5px 5px 5px 5px;
+}
+
+.note p {
+	margin:5px;
+}
+/* .note p + p {margin:2.5em 0 0;} */ /* imposta i margini */
+.note h1 {
+          font-family: 'Actor', sans-serif;
+		  font-size: 20px;
+          font-weight: 400; 
+		  color: rgb(255, 255, 255);
+		  text-shadow: rgb(255, 255, 255) 0px 0px 10px;
+}
+
+.note h2 {          
+        font-family: 'Actor', sans-serif;
+        font-weight: 400; 
+        color: black; 
+        margin: 0;
+}
+
+.note h3 {
+	color: rgb(255, 255, 255);
+	font-family: 'Actor', sans-serif;
+	font-size: 50px;
+	margin:0px 0px 0px 0px;
+	/*background-color: rgb(3, 89, 45);*/
+	text-shadow: rgb(255, 255, 255) 0px 0px 10px;
+}
+
+.note h4 {
+	color: rgb(255, 255, 255);
+	font-family: 'Actor', sans-serif;
+	/* font-size: 50px; */
+	margin:0px 0px 0px 0px;
+	text-shadow: rgb(255, 255, 255) 0px 0px 10px;
+	display: inline;
+}
+
+.note hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
+
+.note.gradientgreen {
+background: #002400; /* Old browsers */
+background: -moz-linear-gradient(left,  #002400 7%, #005700 34%, #008a00 56%, #52b152 73%, #83c783 83%, #b4ddb4 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(7%,#002400), color-stop(34%,#005700), color-stop(56%,#008a00), color-stop(73%,#52b152), color-stop(83%,#83c783), color-stop(100%,#b4ddb4)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #002400 7%,#005700 34%,#008a00 56%,#52b152 73%,#83c783 83%,#b4ddb4 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #002400 7%,#005700 34%,#008a00 56%,#52b152 73%,#83c783 83%,#b4ddb4 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #002400 7%,#005700 34%,#008a00 56%,#52b152 73%,#83c783 83%,#b4ddb4 100%); /* IE10+ */
+background: linear-gradient(to right,  #002400 7%,#005700 34%,#008a00 56%,#52b152 73%,#83c783 83%,#b4ddb4 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002400', endColorstr='#b4ddb4',GradientType=1 ); /* IE6-9 */
+}

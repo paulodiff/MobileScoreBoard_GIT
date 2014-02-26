@@ -1,0 +1,15 @@
+.my-dataview-item {
+    background: lightgray;
+    padding: 1em;
+    border-bottom: 1px solid #ccc;
+}
+.my-dataview-item img {
+    float: left;
+    margin-right: 1em;
+}
+.my-dataview-item h2 {
+    font-weight: bold;
+}
+
+
+ 
